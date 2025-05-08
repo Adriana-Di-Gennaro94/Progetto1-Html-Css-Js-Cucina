@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <title>BlogRicette</title>
+
+</head>
+
+<body class= "bg-light justify-content-center w-100 p-0 m-0">
+
+<!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg fixed-top m-0 p-0">
+
+            <div class="container-fluid p-0">
+                  
+                  <a class="navbar-brand m-0 p-0" href="#">
+                        <img src="./Images/Logo.jpeg" alt="Logo" width="150" height="100" class="d-inline-block align-text-top">
+                  </a>
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <button class="btn btn-close position-absolute" id="closeNavbar" type="button" aria-label="Close"></button>
+
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mx-auto mb-lg-0">
+                              <li class="nav-item dropdown">
+                                    <a class="btn rounded-4 btn-outline-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ricette</a>
+                              <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Tutte Le Ricette</a></li>
+                                    <li><a class="dropdown-item" href="#">Antipasti</a></li>
+                                    <li><a class="dropdown-item" href="#">Primi Piatti</a></li>
+                                    <li><a class="dropdown-item" href="#">Secondi Piatti</a></li>
+                                    <li><a class="dropdown-item" href="#">Dolci</a></li>
+                                    <li><a class="dropdown-item" href="#">Lievitati</a></li>
+                                    <li><a class="dropdown-item" href="#">Piatti Unici</a></li>
+                              </ul>
+                              </li>
+                        </ul>
+                        <form class="form-nav d-flex" role="search">
+                              <input class="form-control me-2 rounded-4" type="search" placeholder="Cerca Una Ricetta" aria-label="Search" id="searchInput">
+                              <button class="btn btn-outline-warning me-2 rounded-4" type="button" id="searchBtn">Cerca</button>
+                              <button class="btn btn-warning rounded-4 me-2 text-light" type="submit">Accedi</button>
+                        </form>
+                  </div>
+
+            </div>
+
+      </nav>
+
+<!-- Header -->
+
+      <header class="container-fluid w-100">
+
+            <div class="row vh-100 w-100 text-center align-items-center">
+
+                  <div class="col-12">
+                        <h1 class="text-dark text-center m-0">Ricette Baresi</h1>
+                  </div>
+      
+            </div>
+
+<!-- Cards -->
+
+            <section class="container-fluid mt-5">
+
+                  <div class="row">
+
+                        <div class="col-12 text-center">
+                              <h2>Ricette In Evidenza</h2>
+                        </div>
+
+                        <div class="col-12 col-md-4 d-flex justify-content-center">
+                              <div class="card card-w">
+                                    <img src="./Images/Orecchiette.avif" class="card-img-top" alt="Orecchiette">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Orecchiette Con Le Cime Di Rapa</h5>
+                                    <p class="card-text">Lo Chef Fabio Abbattista ha preparato per Giallozafferano le orecchiette con le cime di rapa, uno dei piatti tipici più rappresentativi della Puglia!</p>
+                                    <p>45 min <i class="bi bi-stopwatch"></i></p>
+                                    <p>Kcal 448 <i class="bi bi-fire"></i></p>
+                                    <p>Facile <i class="bi bi-cloud-fog"></i></p>
+                                    <button><a href="https://ricette.giallozafferano.it/Orecchiette-con-le-cime-di-rapa.html">LEGGI RICETTA</a></button> 
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex justify-content-center">
+                              <div class="card card-w">
+                                    <img src="./Images/Focaccia.avif" class="card-img-top" alt="Focaccia">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Focaccia Barese</h5>
+                                    <p class="card-text">La focaccia barese è un piatto tipico pugliese, da gustare caldo e da assaporare in ogni suo pezzo. La versione classica è con pomodorini e olive!</p>
+                                    <p>60 min <i class="bi bi-stopwatch"></i></p>
+                                    <p>Kcal 488 <i class="bi bi-fire"></i></p>
+                                    <p>Media <i class="bi bi-cloud-fog"></i></p>
+                                    <button><a href="https://ricette.giallozafferano.it/Focaccia-barese.html">LEGGI RICETTA</a></button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex justify-content-center">
+                              <div class="card card-w">
+                                    <img src="./Images/Tiella.avif" class="card-img-top" alt="RisoPatateCozze">
+                                    <div class="card-body">
+                                    <h5 class="card-title">La Tiella Barese (Riso Patate E Cozze)</h5>
+                                    <p class="card-text">La tiella barese (riso patate e cozze) è una ricetta della tradizione pugliese che si realizza aggiungendo gli ingredienti a crudo in una sola teglia!</p>
+                                    <p>2 ore e 10 min <i class="bi bi-stopwatch"></i></p>
+                                    <p>Kcal 520 <i class="bi bi-fire"></i></p>
+                                    <p>Facile <i class="bi bi-cloud-fog"></i></p>
+                                    <button><a href="https://ricette.giallozafferano.it/Tiella-barese.html">LEGGI RICETTA</a></button>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+            </section>
+
+<!--Carousel  -->
+
+            <div class="container margin">
+
+                  <div class="row justify-content-center">
+
+                        <div class="col-12"> 
+                              <h2 class="text-dark text-center">Altri Piatti Unici Tipici(Collegamenti Esterni-Cliccare Sull'Immagine)</h2>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+
+                              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                                <a href="https://www.cucchiaio.it/ricetta/baccala-con-pomodorini-del-piennolo/"><img src="./Images/Zuppa.jpg" class="d-block w-100" alt="Zuppa"></a>
+                                          </div>
+                                          <div class="carousel-item">
+                                                <a href="https://www.tavolartegusto.it/ricetta/bombette-pugliesi/"><img src="./Images/Bombette.avif" class="d-block w-100" alt="Bombette"></a>
+                                          </div>
+                                          <div class="carousel-item">
+                                                <a href="https://www.fattoincasadabenedetta.it/ricetta/panzerotti-pugliesi/"><img src="./Images/Panzerotti.jpeg" class="d-block w-100" alt="Panzerotti"></a>
+                                          </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"         data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                    </button>
+                              </div>
+                        </div>
+
+                  </div>
+
+            </div>
+
+<!-- Accordion -->
+
+            <div class="container margin">
+
+
+                  <div class="row justify-content-center">
+
+                        <div class="col-12">
+                              <h2 class="text-dark text-center">FAQ (Frequently Asked Questions)</h2>
+                        </div>
+
+                        <div class="col-12 col-md-8">
+                              <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <em>Domanda Più Frequente Sulla Focaccia Barese</em>
+                                    </button>
+                                    </h3>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                          <strong>Come accompagnare la focaccia barese?</strong> In termini di abbinamenti culinari, la focaccia pugliese si sposa benissimo con formaggi freschi e latticini. Una burrata cremosa o una mozzarella di bufala possono diventare compagni ideali, creando un connubio tra consistenze e sapori.
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          <em>Dove Nasce La Focaccia Barese?</em>
+                                    </button>
+                                    </h3>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                          <strong>Altamura</strong>
+                                          La focaccia barese - a dispetto del nome - avrebbe in realtà le sue origini ad Altamura, dove nacque probabilmente dalla necessità di sfruttare il forte calore iniziale del forno a legna, prima che raggiungesse la temperatura ideale per la cottura del pane.
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          <em>Dove fanno la focaccia più buona d'Italia?</em>
+                                    </button>
+                                    </h3>
+                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                          <strong>Panificio Barese</strong> Nei giorni scorsi, il panificio barese ha ricevuto il premio per la “la focaccia più buona d'Italia”, 'battendo' Genova durante una manifestazione che si è tenuta all'Eatalyworld di Bologna, parco tematico dedicato al settore agroalimentare e alla gastronomia.
+                                    </div>
+                                    </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+<!-- Form -->
+            
+            <section class="container">
+
+                  <div class="row justify-content-center">
+
+                        <div class="col-12 text-center m-5">
+                              <h2>Iscriviti Al Canale</h2>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+
+                              <form>
+                                    <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label"><em>Indirizzo Email</em></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">La Privacy Dell'Email Verrà Rispettata</div>
+                                    </div>
+                                    <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label"><em>Password</em></label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Ho Letto L'informativa Sulla Privacy</label>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Invia Dati</button>
+                              </form>
+
+                        </div>
+
+                  </div>
+
+            </section>
+
+      </header>
+
+<!-- Footer -->
+
+      <footer class="container-fluid">
+
+            <div class="row justify-content-center mt-5 align-items-center">
+
+                  <div class="col-12 text-center justify-content-center">
+                        <h4 class="text-center">Seguici Anche Sulle Nostre Pagine</h4>
+                  </div>
+                  <div class="col-12 col-md-3 text-center justify-content-around">
+                        <ul>
+                              <li>Facebook <i class="bi bi-facebook"></i></li>
+                              <li>Instagram <i class="bi bi-instagram"></i></li>
+                              <li>Twitter <i class="bi bi-twitter"></i></li>
+                        </ul>
+                  </div>
+
+            </div>
+
+      </footer>
+
+ <!-- Modal -->
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"  aria-hidden="true">
+
+            <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                              <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Grazie Per La Scelta</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">Puoi isciverti per aggiungere una qualsiasi tua ricetta!</div>
+                        <div class="modal-footer">
+                              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Chiudi La Pagina</button>
+                              <button type="button" class="btn btn-outline-warning">Salva</button>
+                        </div>
+                  </div>
+            </div>
+
+      </div>
+            
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./main.js"></script>
+      
+   
+</body>
+</html>
